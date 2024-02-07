@@ -5,7 +5,7 @@ import UsersList from './components/UsersList'
 
 function App() {
 
-  const baseUrl = "http://localhost:8080"
+  const baseUrl = "https://prueba-crud-sbtr.onrender.com/"
   const [ users, getUsers, createUsers, deleteUsers, updateUsers ] = useFetch(baseUrl)
   const [ departamentos, getDepartamentos ] = useFetch(baseUrl);
   const [ cargos, getCargos ] = useFetch(baseUrl)

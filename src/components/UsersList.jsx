@@ -23,8 +23,8 @@ const UsersList = ({ users }) => {
                 <td>{user.departamento?.nombre}</td>
                 <td>{user.cargo?.nombre}</td>
                 <td>
-                    <button>Eliminar</button>
-                    <button>Actualizar</button>
+                    <button><box-icon name='trash'></box-icon>Eliminar</button>
+                    <button><box-icon name='edit-alt' ></box-icon>Editar</button>
                 </td>
             </tr>
           ))}
